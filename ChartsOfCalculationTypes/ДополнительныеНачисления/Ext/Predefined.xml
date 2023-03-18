@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CalculationTypePredefinedItems" version="2.14">
+	<Item id="4940f5ac-8352-4920-9baf-17cb339c7535">
+		<Name>Подарок</Name>
+		<Code>2</Code>
+		<Description>Подарок</Description>
+		<ActionPeriodIsBase>false</ActionPeriodIsBase>
+	</Item>
+	<Item id="8cc759f6-1876-43cb-affe-8dfbcf2d09a3">
+		<Name>Премия</Name>
+		<Code>1</Code>
+		<Description>Премия</Description>
+		<ActionPeriodIsBase>false</ActionPeriodIsBase>
+		<Base>
+			<CalculationType>ChartOfCalculationTypes.ОсновныеНачисления.Оклад</CalculationType>
+			<CalculationType>ChartOfCalculationTypes.ДополнительныеНачисления.Подарок</CalculationType>
+		</Base>
+	</Item>
+</PredefinedData>
